@@ -13,6 +13,8 @@ pub fn main() !void {
 
     try stdout.print("Run `zig build test` to run the tests.\n", .{});
 
+    try stdout.print("Hello, world!!!\n", .{});
+
     try bw.flush(); // don't forget to flush!
 }
 
